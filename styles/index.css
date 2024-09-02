@@ -1,0 +1,107 @@
+@import url("./global.css");
+
+.wrapper {
+  width: 600px;
+  height: 500px;
+  /* background-color: red; */
+  margin: auto;
+  margin-top: 20px;
+}
+.wrapper__container > h1 {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 30px;
+  color: #333333;
+}
+
+.wrapper__container .wrapper-div .wrapper-btn {
+  width: 249px;
+  height: 60px;
+  background-color: #486abe;
+  border: none;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+
+.btn {
+  width: 249px;
+  height: 60px;
+  background-color: #4285f4;
+  border: none;
+}
+
+.form {
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.form__container .first-input {
+  width: 420px;
+  height: 35px;
+  margin: 0 14px;
+  padding: 7px 15px;
+  background-color: #fff;
+}
+
+.two-input {
+  margin-top: 15px;
+  width: 420px;
+  height: 35px;
+  margin: 14px;
+  padding: 7px 15px;
+}
+
+.form-group {
+  margin-bottom: 10px;
+}
+
+.checkbox-group {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  color: #333333;
+  font-size: 16px;
+}
+
+.checkbox-group input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+  color: #3527b6;
+  font-size: 16px;
+}
+
+#agree {
+  width: 30px;
+  height: 30px;
+}
+
+.foot {
+  margin-top: 20px;
+}
+
+.foot > button {
+  width: 510px;
+  height: 38.88px;
+  padding: 5.6px 16px;
+  background-color: #302683;
+  border: none;
+  color: #fff;
+}
+
+.container{
+    text-align: center;
+}
+.foot-a{
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 30px;
+    transition: all 1s;
+}
+
+.foot-a:hover{
+    text-decoration: underline; /* Hover (ustiga bosilganda) tag chiziq */
+}
+
