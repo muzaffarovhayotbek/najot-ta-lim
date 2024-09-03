@@ -67,22 +67,21 @@
   margin-right: 10px;
 }
 
-a {
-  text-decoration: none;
-  color: #3527b6;
-  font-size: 16px;
-}
-
 #agree {
   width: 30px;
   height: 30px;
 }
 
-.foot {
-  margin-top: 20px;
-}
 
-.foot > button {
+.foot-button > a {
+  text-decoration: none; 
+  color: white;
+  font-weight: bold;
+}
+.foot-button > a:hover {
+  text-decoration: underline;
+}
+.foot-button {
   width: 510px;
   height: 38.88px;
   padding: 5.6px 16px;
@@ -90,18 +89,24 @@ a {
   border: none;
   color: #fff;
 }
-
-.container{
-    text-align: center;
-}
-.foot-a{
-    font-size: 16px;
-    display: inline-block;
-    margin-top: 30px;
-    transition: all 1s;
+.foot > a {
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
 }
 
-.foot-a:hover{
-    text-decoration: underline; /* Hover (ustiga bosilganda) tag chiziq */
+.container {
+  text-align: center;
+}
+.foot-a {
+  text-decoration: none;
+  font-size: 16px;
+  display: inline-block;
+  margin-top: 20px;
+  transition: all 1s;
+  color: #000000;
 }
 
+.foot-a:hover {
+  text-decoration: underline;
+}
